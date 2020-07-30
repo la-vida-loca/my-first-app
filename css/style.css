@@ -1,0 +1,181 @@
+body { 
+	background: #000;
+}
+
+.black {
+	background: black;
+	height: 1000px;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+    top: 0;
+    z-index: 2;
+    -moz-transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.orange {
+	background: #d48b1f;
+	height: 1000px;
+	z-index: 2;
+	position: absolute;
+	right: 0;
+    top: 0;
+    z-index: 2;
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.black h1 {
+	color: #d48b1f;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+}
+.orange h1 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+}
+.greynav {
+	background: #343a40;
+}
+.hidden {
+	display: none;
+}
+.red {
+	height: 1000px;
+    background-color: red;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: url("bg-img.jpg");
+}
+
+.redh1 {
+	color: #fff;
+	font-size: 80px;
+}
+.maindiv {
+	background-color: rgba(10, 10, 10, 0.86);
+ 	width: 1200px;
+ 	height: 400px;
+ 	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    padding: 50px;
+    padding-top: 130px;
+}
+.redh5 {
+	font-size: 20px;
+	color: #ea1414;
+	padding: 20px;
+}
+
+.menuDiv {
+	height: 1000px;
+	background: orange;
+	padding-top: 600px;
+}
+.menu {
+	width: 500px;
+	background: #adadad;
+	height: 400px;
+	display: inline-block;
+}
+.text {
+	color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin-top: 100px;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 8px;
+}
+
+.section2 {
+	background-color: black;
+	height: 400px;
+
+}
+
+.divImg {
+	width: 500px;
+    background: #adadad;
+    height: 400px;	
+}
+
+
+#hoverImg {
+    padding-top: 100px;
+    background-color: black;
+}
+
+.imgHolder {
+    padding: 15px;
+
+}
+
+.imgHolder img {
+      margin: auto;
+      width: 97%;
+}
+
+/*.saleMajstor h1 {
+color: #fff;
+text-align: center;
+font-size: 58px;
+}
+*/
+
+.saleMajstor p {
+color: #fff;
+font-size: 45px;
+margin-top: 40px;
+text-align: center;
+}
+
+/*.saleMajstor img {
+    background-color: #fff;
+    width: 600px;
+    height: 600px;
+}*/
+
+.alex {
+    width: 500px;
+    height: 500px;
+}
+
+.alex2 {
+    height: 300px;
+    width: auto;
+}
+
+.sin1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.veske {
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
